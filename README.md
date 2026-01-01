@@ -1,49 +1,62 @@
-# Research Profile (Static Website)
+# Research Profile — Static Academic Website
 
-This is a minimal, dependency-light academic profile page (EN/DE).
+This repository contains a minimal, multilingual (EN/DE) static personal profile website intended for academic use.
 
-## Quick start (local preview)
+**Repository contents**
+- Main page: `index.html`
+- Static assets: `academic_website/assets/` (images, CSS)
+- Translations: `academic_website/data/i18n.json`
+- Publications data: `academic_website/data/publications.json`
+- Utility scripts: `academic_website/tools/` (e.g. `sync_publications.py`)
 
-From the project folder:
+## Local preview
+To preview the site locally from the project folder, start a simple HTTP server. Example with Python:
 
-- Python:
-  - `python -m http.server 8000`
-  - open `http://localhost:8000`
+```bash
+python -m http.server 8000
+# then open http://localhost:8000 in your browser
+```
 
-## Language switch (EN/DE)
+Open `index.html` in the browser or navigate to the desired subpath.
 
-Use the **EN/DE** buttons in the header. The selection is stored in your browser (localStorage).
-
-Translations live in:
-- `data/i18n.json`
+## Language switching (EN/DE)
+Use the EN/DE buttons in the header to switch languages. The selection is stored locally in your browser (`localStorage`). Translation strings are stored in `academic_website/data/i18n.json`.
 
 ## Publications
+Publications are loaded from `academic_website/data/publications.json`.
 
-The website loads publications from:
-- `data/publications.json`
+### Syncing publications (semi-automatic)
+This repository includes a helper script to semi-automatically generate or update `publications.json` from an external author page (for example SSRN). External services often employ CORS or bot protection; the script runs locally and scrapes the provided URL.
 
-### Sync from SSRN (semi-automatic)
+Steps:
+1) Install required Python packages:
 
-Because SSRN/Google Scholar are not reliably fetchable from a static website (CORS / bot protection),
-this repo includes a local sync script that *generates* `data/publications.json` from your SSRN author page.
+```bash
+pip install requests beautifulsoup4
+```
 
-1) Install requirements:
-- `pip install requests beautifulsoup4`
+2) Run the sync script (example):
 
-2) Run:
-- `python tools/sync_publications.py --ssrn "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7334206" --out data/publications.json --merge`
+```bash
+python academic_website/tools/sync_publications.py --ssrn "<SSRN-AUTHOR-URL>" --out academic_website/data/publications.json --merge
+```
 
 Notes:
-- SSRN's HTML may change; if parsing breaks, adjust the selectors in `tools/sync_publications.py`.
-- For Google Scholar, the recommended approach is to export **BibTeX** from Scholar and import it locally (scraping Scholar is often blocked).
+- External site markup can change. If parsing fails, adapt the selectors inside `academic_website/tools/sync_publications.py`.
+- For Google Scholar it is usually preferable to export BibTeX and import it locally instead of scraping.
 
-## Customize
+## Customization
+- Update links and contact information in `index.html`.
+- Add a profile picture to `academic_website/assets/images/` (e.g. `profile.jpg`).
+- Edit translation strings in `academic_website/data/i18n.json`.
+- Maintain publications in `academic_website/data/publications.json` or update them with the sync script.
 
-- Update links/emails in `index.html`
-- Add a profile picture at `assets/images/profile.jpg`
-- Edit translations in `data/i18n.json`
-- Edit publications in `data/publications.json`
+## Development
+- Make changes locally and test with the simple HTTP server above.
+- Optionally use a live-reload tool such as `live-server` for faster iteration.
 
 ## License
+This project is released under the MIT License — see `LICENSE`.
 
-MIT-License
+## Contact
+If you have questions or find issues, please open an issue or contact the maintainer via the address provided in the project.
