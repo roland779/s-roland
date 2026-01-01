@@ -70,7 +70,6 @@ def parse_ssrn_author_page(url: str):
             "title": title,
             "authors": [],
             "venue": f"SSRN ({year})" if year else "SSRN",
-            "selected": False,
             "award": "",
             "links": {
                 "ssrn": abs_url

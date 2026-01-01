@@ -51,6 +51,8 @@
 
   function setPubs(data) {
     pubs = Array.isArray(data && data.publications) ? data.publications : [];
+    // treat missing 'selected' as visible; drop entries explicitly set to false
+    pubs = pubs.filter(p => p.selected !== false);
     pubs.sort((a, b) => parseYear(b) - parseYear(a));
     render();
   }
