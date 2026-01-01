@@ -41,7 +41,7 @@
 
   async function init() {
     try {
-      const res = await fetch("data/i18n.json", { cache: "no-store" });
+      const res = await fetch("academic_website/data/i18n.json", { cache: "no-store" });
       dict = await res.json();
     } catch (e) {
       // Fallback for file:// usage: read embedded JSON from index.html
