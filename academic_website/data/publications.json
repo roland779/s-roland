@@ -2,18 +2,11 @@
   "publications": [
     {
       "title": "Inter-Organizational Collaborations in Open-Source Software Ecosystems",
-      "authors": [
-        "Roland Robert Schreiber",
-        "Thomas Wieland"
-      ],
-      "year": 2025,
-      "type": "journal-article",
-      "venue": "Journal of Systems and Software",
-      "status": "published",
+      "authors": ["Roland Robert Schreiber", "Thomas Wieland"],
+      "venue": "Journal of Systems and Software, 112765 (2026)",
       "award": "",
       "links": {
         "doi": "https://doi.org/10.1016/j.jss.2025.112765",
-        "publisher": "https://www.sciencedirect.com/science/article/pii/S016412122500XXX",
         "ssrn": "https://ssrn.com/abstract=5097590",
         "zenodo": "https://doi.org/10.5281/zenodo.18086905",
         "orcid": "https://orcid.org/0009-0000-7756-4507"
@@ -21,14 +14,8 @@
     },
     {
       "title": "Social Network Analysis in Software Development Projects: A Systematic Literature Review",
-      "authors": [
-        "Roland Robert Schreiber",
-        "Matth\u00e4us Paul Zylka"
-      ],
-      "year": 2020,
-      "type": "journal-article",
-      "venue": "International Journal of Software Engineering and Knowledge Engineering 30(03), 321–362",
-      "status": "published",
+      "authors": ["Roland Robert Schreiber", "Matthäus Paul Zylka"],
+      "venue": "International Journal of Software Engineering and Knowledge Engineering 30(03), 321–362 (2020)",
       "award": "",
       "links": {
         "doi": "https://doi.org/10.1142/S021819402050014X",
@@ -39,33 +26,23 @@
     },
     {
       "title": "Organizational Influencers in Open-Source Software Projects",
-      "authors": [
-        "Roland Robert Schreiber"
-      ],
-      "year": 2023,
-      "type": "journal-article",
-      "venue": "International Journal of Open Source Software and Processes 14(1), 1–20",
-      "status": "published",
+      "authors": ["Roland Robert Schreiber"],
+      "venue": "International Journal of Open Source Software and Processes 14(1), 1–20 (February 2023)",
       "award": "",
       "links": {
         "doi": "https://doi.org/10.4018/IJOSSP.318400",
-        "publisher": "https://dl.acm.org/doi/10.4018/IJOSSP.318400",
+        "acm": "https://dl.acm.org/doi/10.4018/IJOSSP.318400",
         "orcid": "https://orcid.org/0009-0000-7756-4507"
       }
     },
     {
       "title": "Organizational Influence on Security Development in Open-Source Software Projects",
-      "authors": [
-        "Roland Robert Schreiber"
-      ],
-      "year": 2024,
-      "type": "journal-article",
-      "venue": "International Journal of Systems and Software Security and Protection 15(1), 1–20",
-      "status": "published",
+      "authors": ["Roland Robert Schreiber"],
+      "venue": "International Journal of Systems and Software Security and Protection 15(1), 1–20 (October 2024)",
       "award": "",
       "links": {
         "doi": "https://doi.org/10.4018/IJSSSP.356659",
-        "publisher": "https://www.igi-global.com/article/organizational-influence-on-security-development-in-open-source-software-projects/356659",
+        "igi": "https://www.igi-global.com/article/organizational-influence-on-security-development-in-open-source-software-projects/356659",
         "dblp": "https://dblp.org/rec/journals/ijsssp/Schreiber24",
         "orcid": "https://orcid.org/0009-0000-7756-4507"
       }
