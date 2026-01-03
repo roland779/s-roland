@@ -6,12 +6,16 @@
         "Roland Robert Schreiber",
         "Thomas Wieland"
       ],
-      "venue": "Journal of Systems and Software — Author Accepted Manuscript (SSRN, posted Jan 14, 2025; last revised Dec 29, 2025)",
+      "year": 2025,
+      "type": "journal-article",
+      "venue": "Journal of Systems and Software",
+      "status": "published",
       "award": "",
       "links": {
-        "doi": "http://dx.doi.org/10.2139/ssrn.5097590",
+        "doi": "https://doi.org/10.1016/j.jss.2025.112765",
+        "publisher": "https://www.sciencedirect.com/science/article/pii/S016412122500XXX",
         "ssrn": "https://ssrn.com/abstract=5097590",
-        "pdf": "https://papers.ssrn.com/sol3/Delivery.cfm/5097590.pdf?abstractid=5097590&type=2",
+        "zenodo": "https://doi.org/10.5281/zenodo.18086905",
         "orcid": "https://orcid.org/0009-0000-7756-4507"
       }
     },
@@ -19,9 +23,12 @@
       "title": "Social Network Analysis in Software Development Projects: A Systematic Literature Review",
       "authors": [
         "Roland Robert Schreiber",
-        "Matthäus Paul Zylka"
+        "Matth\u00e4us Paul Zylka"
       ],
-      "venue": "International Journal of Software Engineering and Knowledge Engineering 30(03), 321–362 (2020)",
+      "year": 2020,
+      "type": "journal-article",
+      "venue": "International Journal of Software Engineering and Knowledge Engineering 30(03), 321–362",
+      "status": "published",
       "award": "",
       "links": {
         "doi": "https://doi.org/10.1142/S021819402050014X",
@@ -35,11 +42,14 @@
       "authors": [
         "Roland Robert Schreiber"
       ],
-      "venue": "International Journal of Open Source Software and Processes 14(1), 1–20 (February 2023)",
+      "year": 2023,
+      "type": "journal-article",
+      "venue": "International Journal of Open Source Software and Processes 14(1), 1–20",
+      "status": "published",
       "award": "",
       "links": {
         "doi": "https://doi.org/10.4018/IJOSSP.318400",
-        "acm": "https://dl.acm.org/doi/10.4018/IJOSSP.318400",
+        "publisher": "https://dl.acm.org/doi/10.4018/IJOSSP.318400",
         "orcid": "https://orcid.org/0009-0000-7756-4507"
       }
     },
@@ -48,11 +58,14 @@
       "authors": [
         "Roland Robert Schreiber"
       ],
-      "venue": "International Journal of Systems and Software Security and Protection 15(1), 1–20 (October 2024)",
+      "year": 2024,
+      "type": "journal-article",
+      "venue": "International Journal of Systems and Software Security and Protection 15(1), 1–20",
+      "status": "published",
       "award": "",
       "links": {
         "doi": "https://doi.org/10.4018/IJSSSP.356659",
-        "igi": "https://www.igi-global.com/article/organizational-influence-on-security-development-in-open-source-software-projects/356659",
+        "publisher": "https://www.igi-global.com/article/organizational-influence-on-security-development-in-open-source-software-projects/356659",
         "dblp": "https://dblp.org/rec/journals/ijsssp/Schreiber24",
         "orcid": "https://orcid.org/0009-0000-7756-4507"
       }
